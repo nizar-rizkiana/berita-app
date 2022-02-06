@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section#content {
+    margin-top: 80px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.multi-line-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/*style footer*/
+footer {
+    background-color: midnightblue;
+}
+
+footer .container .grid-footer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white;
+    padding-top: 16px;
+}
+
+footer .footer-item:first-child {
+    text-align: center;
+    color: white;
+}
+
+footer .container .grid-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer #logo-footer {
+    width: 90px;
+    height: 75px;
+}
+
+footer #brand-footer {
+    width: 90px;
+    height: 30px;
+}
+
+footer .footer-item .col ul li a {
+    color: white;
+}
+
+footer .copyright {
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+    border-top: 2px solid grey;
+    padding: 10px;
+    color: #acacac;
+    font-size: 18px;
+}
+
+#content #artikel-body {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#content #artikel-img {
+    height: 360px;
+    width: 640px;
+    border-radius: 14px;
+}
+
+#content #img-penulis {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#content #artikel-judul {
+    font-size: 30px;
+}
+
+
+/* style komentar */
+section#comment .comment {
+    display: flex;
+}
+
+section#comment .comment-reply {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+section#comment .form-comment {
+    display: flex;
+}
+
+section#comment .form-comment-reply {
+    display: none;
+    margin-left: 40px;
+}
+
+.btn-balas {
+    display: inline;
+    color: #007BFF;
+}
+
+.btn-balas:hover {
+    cursor: pointer;
+    color: #0056B3;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #content {
+        margin-top: 90px;
+    }
+
+    #content #artikel-judul {
+        font-size: 22px;
+    }
+
+    #content #artikel-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .list-judul {
+        font-size: 16px;
+        letter-spacing: 14;
+    }
+
+    footer .container .grid-footer {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+}

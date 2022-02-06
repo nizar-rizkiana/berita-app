@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="nizar.rizkiana007@gmail.com">
+    <title>Berita App</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/nav-style.css">
+    <link rel="stylesheet" href="assets/bootstrap/icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/splide/dist/css/splide.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="my-navbar fixed-top" id="navbar">
+        <!-- form search bar baru -->
+        <form action="" class="form-search d-flex d-md-none">
+            <input type="text" placeholder="Search... " class="input-search">
+            <button type="submit" class="btn-search"><i class="bi bi-search text-secondary"></i></button>
+        </form>
+        <div class="navbar-left">
+            <div class="logo">
+                <a href="#">Berita App</a>
+            </div>
+
+            <div class="burger">
+                <span></span>
+            </div>
+
+            <i class="bi bi-search text-white" id="btn-toggle"></i>
+        </div>
+
+        <div class="mynavbar-content">
+            <div class="logo">
+                <a href="#">Berita App</a>
+            </div>
+            <ul class="mynavbar-list">
+                <li class="mynav-item">
+                    <a href="index.html" class="mynav-link">Home</a>
+                </li>
+                <li class="mynav-item">
+                    <a href="kategori.html" class="mynav-link dropdown-btn">Pendidikan</a>
+                </li>
+
+                <li class="mynav-item">
+                    <a href="kategori.html" class="mynav-link dropdown-btn">Agama</a>
+                </li>
+                <li class="mynav-item">
+                    <a href="kategori.html" class="mynav-link dropdown-btn">Politik</a>
+
+                </li>
+                <li class="mynav-item">
+                    <a href="kategori.html" class="mynav-link dropdown-btn">Bisnis</i></a>
+                </li>
+                <li class="mynav-item dropdown">
+                    <a href="javascript:void(0)" class="mynav-link dropdown-btn">Olahraga&nbsp; <i
+                            class="bi bi-caret-down-fill"></i></a>
+                    <div class="dropdown-list">
+                        <a href="#">Sepak bola</a>
+                        <a href="#">Voli</a>
+                        <a href="#">Badminton</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="navbar-right ml-auto">
+
+            <form action="#" class="form">
+                <input type="text" class="search-input" placeholder="Search ..." />
+                <button class="mybtn btn-search"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+
+
+    </nav>
+    <!-- akhir navbar -->
+    <section id="content">
+        <div class="container py-4 p-sm-0">
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb bg-secondary">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Pendidikan</li>
+                </ol>
+            </nav>
+            <header>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-xl-8 mx-auto">
+                        <div class="splide">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card border-0">
+                                            <img src="https://picsum.photos/640/360?random=1" alt=""
+                                                class="card-img-top rounded" width="100%">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Unde,
+                                                    accusamus!</h4>
+                                                <a href="artikel.html" class="stretched-link"></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card border-0">
+                                            <img src="https://picsum.photos/640/360?random=2" alt=""
+                                                class="card-img-top rounded" width="100%">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Unde,
+                                                    accusamus!</h4>
+                                                <a href="artikel.html" class="stretched-link"></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card border-0">
+                                            <img src="https://picsum.photos/640/360?random=3" alt=""
+                                                class="card-img-top rounded" width="100%">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Unde,
+                                                    accusamus!</h4>
+                                                <a href="artikel.html" class="stretched-link"></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-3 col-xl-3 d-none d-xl-block d-md-block">
+                        <img src="assets/images/banner.jpg" alt="" width="90%">
+                    </div> -->
+                </div>
+            </header>
+            <br>
+            <hr>
+            <section class="artikel row">
+                <div class="col-12 col-md-10 col-xl-8 border-end">
+                    <h3>Berita Terbaru</h3>
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=4" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <span class="badge bg-info">Pendidikan</span>
+                                    <h5 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Nulla,
+                                        dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="text-muted penulis">Nizar Rizkiana</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=5" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <span class="badge bg-info">Pendidikan</span>
+                                    <h5 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Nulla,
+                                        dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="text-muted penulis">Nizar Rizkiana</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=6" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <span class="badge bg-info">Pendidikan</span>
+                                    <h5 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Nulla,
+                                        dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="text-muted penulis">Nizar Rizkiana</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <!-- akhir col berita Lainnya -->
+                <!-- awal side bar berita Populer -->
+                <div class="col-12 col-md-10 col-xl-4">
+                    <h3>Berita Populer</h3>
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=7" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <h6 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="fw-bold">650 Views</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=8" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <h6 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Nulla,
+                                        dolores?Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="fw-bold">650 Views</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card mb-3 border-0 w-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 col-4">
+                                <img src="https://picsum.photos/640/360?random=9" class="img-fluid rounded my-auto"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 col-8">
+                                <div class="card-body p-2 p-md-3">
+                                    <h6 class="card-title multi-line-truncate list-judul">Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Nulla</h6>
+                                    <a href="artikel.html" class="stretched-link"></a>
+                                    <small class="fw-bold">650 Views</small>
+                                    <p class="card-text"><small class="text-muted">7 February 2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <!-- akhir berita populer -->
+            </section>
+
+        </div>
+        <!-- end container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-4 mt-4">
+        <div class="container">
+            <div class="grid-footer">
+                <div class="footer-item">
+                    <div class="col">
+                        <img id="logo-footer" src="assets/images/logo pribadi.png">
+                        <br><br>
+                        <h5>Connect With Us</h5>
+                        <div class="d-flex text-center justify-content-center">
+                            <h3 class="mx-3"><i class="bi bi-facebook text-primary"></i>
+                            </h3>
+                            <h3 class="mx-3"><i class="bi bi-whatsapp text-success"></i>
+                            </h3>
+                            <h3 class="mx-3"><i class="bi bi-instagram"></i>
+                            </h3>
+                            <h3 class="mx-3"><i class="bi bi-youtube text-danger"></i>
+                            </h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="col">
+                        <h5>Kategori</h5>
+                        <ul>
+                            <li class="kategori"><a href="kategori.html" class="text-white">Olahraga</a></li>
+                            <li class="kategori"><a href="kategori.html">Politik</a></li>
+                            <li class="kategori"><a href="kategori.html">Pendidikan</a></li>
+                            <li class="kategori"><a href="kategori.html">kategory 4</a></li>
+                            <li class="kategori"><a href="kategori.html">kategory 5</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="col">
+                        <h5>Thanks To</h5>
+                        <ul>
+                            <li class="kategori">Tuhan Yang Maha Esa</li>
+                            <li class="kategori">Lorem, ipsum dolor.</li>
+                            <li class="kategori">Lorem ipsum dolor sit.</li>
+                            <li class="kategori">Tim Developer</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-item">
+                    <div class="col">
+                        <h5>Kontak</h5>
+                        <ul>
+                            <li class="kategori">Alamat : jl. Lorem ipsum dolor sit amet.</li>
+                            <li class="kategori">Email : info@berita.com</li>
+                            <li class="kategori">No HP : +62 809847384</li>
+                            <li class="kategori">Join Us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-white mt-md-4">Developed By <a
+                    href="mailto:nizar.rizkiana007@gmail.com">nizar.rizkiana007@gmail.com</a></p>
+        </div>
+        <div class="copyright">
+            <!-- <h5 class="text-white">Build with : </h5> -->
+            <p class="m-0 text-center">Copyright &copy; Berita App 2022</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/script/script.js"></script>
+    <script src="assets/splide/dist/js/splide.min.js"></script>
+    <script>
+        // auto height dan width
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 1,
+            focus: 'center',
+            autoplay: true,
+        });
+
+        splide.mount();
+    </script>
+</body>
+
+</html>
